@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercise1.sol": "simpleStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercise1.sol": {
+			"keccak256": "0x8932c645e6f47bc460ffd3596dba5c9ab00de0f298ba00e270a4f97a95dff232",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9fe6c99f0cba244265b237de971b5f72506aed9b3acadfacd719ba0fd9bab236",
+				"dweb:/ipfs/QmdRPyEYEzPSELPJcaAV8sDgzy2nbQUBzFXj2Cp1nbQCU2"
+			]
+		}
+	},
+	"version": 1
+}
