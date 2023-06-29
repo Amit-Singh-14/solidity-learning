@@ -10,8 +10,7 @@ contract Will {
     bool deceased;
 
 // payable se we allow to send ether 
-     constructor() payable public {
-
+      constructor() payable public {
         owner = msg.sender; // who is calling this contract  rep address 
         fortune = msg.value; // msg value tells us how much etheris being send
         deceased = false;
@@ -26,6 +25,7 @@ contract Will {
      modifier onlyOwner {
         require( msg.sender == owner);
         _;
+        
     }
 
     // list of familyWallets
