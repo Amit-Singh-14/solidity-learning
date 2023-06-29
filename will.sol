@@ -3,6 +3,7 @@
 // import type h krna padhta  h
 pragma solidity >=0.7.0 <0.9.0;
 
+// Will to tranfer owner ether to family after deceased.
 
 contract Will {
     address owner;
